@@ -25,5 +25,3 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * [POST]/workintech/animal => ```integer id``` ve ```String name``` değerlerini alır ve animals mapine ekler.
  * [PUT]/workintech/animal/{id} => İlgili id deki map değerini ```Request Body``` içerisinden aldığı id değeri ile günceller.
  * [DELETE]/workintech/animal/{id} => İlgili id değerini mapten siler.
- * Spring Actuators endpointlerini kullanarak /mappings, /health ile uygulamanızın durumunu kontrol edin
- * /info nun çalışabilmesi için application.properties kısmına ```name```, ```description```, ```version``` kısımlarını tanımlayınız.
