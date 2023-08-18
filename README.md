@@ -19,7 +19,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * Uygulamanızda ```application.properties``` dosyasına birkaç tane değer tanımlayıp, bunları ```Value``` annotation kullanarak çağırın.
  * ```AnimalController``` isimli bir sınıf oluşturunuz. Controller olarak görev yapacağından dolayı gerekli annotation ile işaretleyin.
  * Controller sınıfı içerisinde bir adet ```animals``` adında Map tanımlayın. ```Map<Integer, Animal>``` şeklinde değer almalı.
- * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak. 
+ * Amacımız CRUD işlemlerini tanımlayan endpointler yazarak bir Rest Api tanımlamak. 
  * [GET]/workintech/animal => tüm animal mapinin value değerlerini ```List``` olarak döner.
  * [GET]/workintech/animal/{id} => ilgili id deki animal mapte varsa value değerini döner.
  * [POST]/workintech/animal => ```integer id``` ve ```String name``` değerlerini alır ve animals mapine ekler.
