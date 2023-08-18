@@ -18,7 +18,7 @@ Proje sayımız ilerledikçe proje yönetimimizi kolaylaştırmak adına projele
  * Spring devtools kullanarak uygulamanızın her değişim sonrasında kendisini restart etmesini sağlayınız.
  * Uygulamanızda ```application.properties``` dosyasına birkaç tane değer tanımlayıp, bunları ```Value``` annotation kullanarak çağırın.
  * ```AnimalController``` isimli bir sınıf oluşturunuz. Controller olarak görev yapacağından dolayı gerekli annotation ile işaretleyin.
- * Controller sınıfı içerisinde bir adet ```animals``` adında Map tanımlayın. ```Map<Integer, String>``` şeklinde değer almalı.
+ * Controller sınıfı içerisinde bir adet ```animals``` adında Map tanımlayın. ```Map<Integer, Animal>``` şeklinde değer almalı.
  * Amacımız CRUD işlemlerini tanımlayan endpointler yazmak. 
  * [GET]/workintech/animal => tüm animal mapinin value değerlerini ```List``` olarak döner.
  * [GET]/workintech/animal/{id} => ilgili id deki animal mapte varsa value değerini döner.
